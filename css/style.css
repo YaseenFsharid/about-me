@@ -1,16 +1,19 @@
 body{
     font-family: fantasy;
-    background-color: aquamarine;
-    color: darkblue; 
+    background-color: blanchedalmond;
+    color: gray; 
 }
 h1 {
     font-family: fantasy;
-    background-color: aquamarine;
-    color: darkblue;
+    background-color: purple;
+    color: gray;
+
     text-align: center;
 }
 p{
     font-family: monospace;
-    background-color: aquamarine;
-    color: darkblue;
+    background-color: purple;
+    color: darkgray;
+    font-size: large;
 }
+ol { font-size: 15px; }
