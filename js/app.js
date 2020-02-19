@@ -1,5 +1,6 @@
 'use strict';
-function guessGame (){
+function guessGameQ1()
+{
 var name = prompt("please enter your name");
 alert("hello " + name + " please answer with yes or no or y/n");
 var name2 = prompt("is my name yaseen sharid ?");
@@ -20,6 +21,12 @@ switch (name2.toUpperCase) {
         console.log(name2);
         break;
 }
+}
+
+guessGameQ1();
+
+function guessGameQ2() {
+
 var career = prompt("did i study in hashemite unevirsty ?");
 switch (career.toLowerCase()) {
     case 'yes':
@@ -35,6 +42,11 @@ switch (career.toLowerCase()) {
         console.log(career);
         break;
 }
+}
+
+guessGameQ2();
+
+function guessGameQ3() {
 var paint = prompt("did i painting the names with thier stories ?");
 switch (paint.toLowerCase()) {
     case 'yes':
@@ -50,6 +62,11 @@ switch (paint.toLowerCase()) {
         console.log(paint);
         break;
 }
+}
+
+guessGameQ3();
+
+function guessGameQ4() {
 var hardwork = prompt("do i had an experiance of constructing and painting wall");
 
 switch (hardwork.toLowerCase()) {
@@ -66,6 +83,10 @@ switch (hardwork.toLowerCase()) {
         console.log(hardwork);
         break;
 }
+}
+guessGameQ4();
+
+function guessGameQ5() {
 var run = prompt("do i like to run daily morning?");
 switch (run.toLowerCase()) {
     case 'yes':
@@ -81,8 +102,13 @@ switch (run.toLowerCase()) {
         console.log(run);
         break;
 }
-alert("welcom " + name + "thanks for doing that");
+}
+alert("welcome " + name + "thanks for doing that"); 
 
+guessGameQ5();
+
+
+function guessGameQ6() {
 
 var numOFAttemps = 0;
 var myNum = 3;
@@ -107,7 +133,11 @@ while (numOFAttemps < 4) {
         alert("my number is 3");
     }
 }
+}
 
+guessGameQ6();
+
+function guessGameQ7() {
 var smokings = ["winston", "marlboro", "kent", "gelouas", "captin black", "lm", "lm loft", "Ld", "kent advance", "marlboro touch"];
 var mySmoke = smokings[2];
 var gsSmoke = prompt("can you guess what kind of smoking i smoke ?");
@@ -172,9 +202,10 @@ var attemps = 0;
 
 }
 
+
   return alert("your score is :" + rightAnswer +" good job .");
  
 }
 
 
-guessGame();
+guessGameQ7();
