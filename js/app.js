@@ -1,4 +1,5 @@
 'use strict';
+function guessGame (){
 var name = prompt("please enter your name");
 alert("hello " + name + " please answer with yes or no or y/n");
 var name2 = prompt("is my name yaseen sharid ?");
@@ -170,8 +171,10 @@ var attemps = 0;
     }
 
 }
-alert("your score is :" + rightAnswer +" good job .");
+
+  return alert("your score is :" + rightAnswer +" good job .");
  
+<<<<<<< HEAD
   */  
 
 for ( var i=0; i < 6 ;i++) {
@@ -193,3 +196,9 @@ for ( var i=0; i < 6 ;i++) {
  
 }
 alert("your score is :" + rightAnswer +" good job .");
+=======
+}
+
+
+guessGame();
+>>>>>>> 9483b53e2c51873470aa37b3f50824846f667dc9
