@@ -109,10 +109,10 @@ while (numOFAttemps < 4) {
 
 var smokings = ["winston", "marlboro", "kent", "gelouas", "captin black", "lm", "lm loft", "Ld", "kent advance", "marlboro touch"];
 var mySmoke = smokings[2];
-var gsSmoke = prompt("can you guess what kind of smoking i smoke ?");
+
 var attemps = 0;
 
- while (attemps < 6){
+/* while (attemps < 6){
     switch (gsSmoke.toLowerCase()) {
         case smokings[0]:
             alert("awsome you've get my smoking");
@@ -172,4 +172,24 @@ var attemps = 0;
 }
 alert("your score is :" + rightAnswer +" good job .");
  
-    
+  */  
+
+for ( var i=0; i < 6 ;i++) {
+    var gsSmoke = prompt("can you guess what kind of smoking i smoke ?");
+    for (var j =0; j <smokings.length ;j++) {
+        if (gsSmoke == smokings[j]) {
+            alert ("awsome you've guess my smoking");
+            rightAnswer += 1;
+          attemps+=1;
+            break ;
+          
+            
+        }
+        
+  }
+  if (attemps == 1){
+    break ;
+  }
+ 
+}
+alert("your score is :" + rightAnswer +" good job .");
